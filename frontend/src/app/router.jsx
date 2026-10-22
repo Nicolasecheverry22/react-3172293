@@ -7,7 +7,7 @@ import Login from "../features/auth/components/Login"
 const router = createBrowserRouter ([
     {
         path: "/",
-        element: <Navigate to="/dashboard" replace />,
+        element: <Navigate to="/dashboard/login" replace />,
     },
     {
         path: "/auth",
